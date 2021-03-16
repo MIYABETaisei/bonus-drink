@@ -12,6 +12,6 @@ class BonusDrink
   end
 end
 
-p "何本買うんだい？"
+p "何本買いますか？"
 num = gets
-p num.chomp! + "本買った場合、全部で" + BonusDrink.total_count_for(num.to_i).to_s + "本飲めるぞ"
+p num.chomp! + "本買ったので、全部で" + BonusDrink.total_count_for(num.to_i).to_s + "本飲めます"
