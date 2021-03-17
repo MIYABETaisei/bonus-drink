@@ -11,7 +11,3 @@ class BonusDrink
     return all_drink
   end
 end
-
-p "何本買いますか？"
-num = gets
-p num.chomp! + "本買ったので、全部で" + BonusDrink.total_count_for(num.to_i).to_s + "本飲めます"
